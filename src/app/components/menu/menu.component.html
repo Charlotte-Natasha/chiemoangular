@@ -1,1 +1,11 @@
-<p>menu works!</p>
+<label >
+    Name:
+    <input type="text" (change)="onTitleChanged($event)">
+</label>
+
+<label >
+    Name:
+    <input type="file" (change)="onImageChanged($event)">
+</label>
+
+<button (click)="newFood()">Upload</button>
